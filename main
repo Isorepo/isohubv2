@@ -7,13 +7,15 @@ local Config = {
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BracketV3.lua"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
-local Tab1 = Window:CreateTab("Example")
-local Tab2 = Window:CreateTab("UI Settings")
+local Tab1 = Window:CreateTab("Player")
+local Tab2 = Window:CreateTab("QB")
+local Tab3 = Window:CreateTab("UI Settings")
 
 local Section1 = Tab1:CreateSection("First Section")
 local Section2 = Tab1:CreateSection("Second Section")
-local Section3 = Tab2:CreateSection("Menu")
-local Section4 = Tab2:CreateSection("Background")
+local Section3 = Tab2:CreateSection("QB Aimbot")
+local Section4 = Tab3:CreateSection("Menu")
+local Section5 = Tab3:CreateSection("Background")
 
 local Label1 = Section1:CreateLabel("Label 1")
 Label1:UpdateText("lol")
